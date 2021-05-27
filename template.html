@@ -1,0 +1,9 @@
+<div class='label'>
+    <span id='sample_name'>
+        {{ sample_name }}
+        <br />
+    </span>
+    <br>
+    <span id='sample_price'>{{ sample_price }}</span><br>
+    <img class="barcode" src='{{label_tools.barcode(sample_id, module_width=0.5, font_size=25)}}' />
+</div>

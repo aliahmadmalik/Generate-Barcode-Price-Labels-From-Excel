@@ -1,0 +1,40 @@
+@page {
+  width: 210mm;
+  height: 297mm;
+}
+img {
+  width: 40mm;
+  height: 13mm;
+  margin-left: auto;
+
+  display: inline-block;
+  vertical-align: middle;
+
+  image-rendering: pixelated;
+}
+.label {
+  font-family: Arial;
+  font-weight: bold;
+  display: inline-block;
+  width: 60mm;
+  height: 35mm;
+  margin: 0.5mm;
+  vertical-align: middle;
+}
+
+#sample_name {
+  margin-top: 0.5mm;
+  font-size: 14px;
+  height: 10mm;
+  width: 58mm;
+  display: flex;
+
+  float: left;
+}
+#sample_price {
+  display: block;
+  float: right;
+  bottom: 11mm;
+  font-size: 25px;
+  margin-right: 3mm;
+}
