@@ -45,10 +45,13 @@ Congratulations Everything is Ready
 Now just type the final command and script will generate labels 24 per page
 (Few more instructions put the excel file in same folder as script and rename it as input)
 
-python gen.py
+python main.py
 
 every time you want to generate new label just put excel file in same folder as script and rename it as input
-go to address type cmd and press enter when console appears just run python gen.py
+go to address type cmd and press enter when console appears just run python main.py
 and new pdf file will be generated with new label also always copy generated labels to another folder as each time new file generated previous will be replaced if its in same folder as script
 
-If You Don’t Understand Anything or Having Difficulty Do Let Me Know and if you can’t do anything let me know we can do zoom meeting and I will do everything, myself. Don’t worry even after order is finished, I will help you with any issue you face. Also, any more data can be added to label in future just keep 3 files with you as these are source files.
+Example
+------------------------
+
+![image](https://user-images.githubusercontent.com/59804772/119805990-39c1c100-befb-11eb-8a09-c150eb8dfab4.png)
